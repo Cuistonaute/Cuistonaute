@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Cuistonaute 👋</h1>
+<h1 text="align-center">Welcome to Cuistonaute 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="Documentation" target="_blank">
