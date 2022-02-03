@@ -7,9 +7,17 @@
   <a href="openSource" target="_blank">
     <img alt="License: opensource" src="https://img.shields.io/badge/License-opensource-yellow.svg" />
   </a>
-  <a href="https://twitter.com/https://twitter.com/Cuistonaute" target="_blank">
-    <img alt="Twitter: https://twitter.com/Cuistonaute" src="https://img.shields.io/twitter/follow/https://twitter.com/Cuistonaute.svg?style=social" />
+</p>
+<p>
+  <!-- <a href="https://facebook.com/Cuistonaute" target="_blank">
+    <img alt="Facebook: https://facebook.com/Cuistonaute" src="https://img.shields.io/badge/facebook-the-badge&logo=facebook&logoColor=white" />
+  </a> -->
+  <a href="https://twitter.com/Cuistonaute" target="_blank">
+    <img alt="Twitter: https://twitter.com/Cuistonaute" src="https://img.shields.io/twitter/follow/Cuistonaute?color=1da1f2&label=twitter" />
   </a>
+  <!-- <a href="https://instagram.com/Cuistonaute" target="_blank">
+    <img alt="Instagram: https://instagram.com/Cuistonaute" src="https://img.shields.io/instagram/follow/Cuistonaute?color=1da1f2&label=instagram" />
+  </a> -->
 </p>
 
 > Project for share our own cooking recipes
