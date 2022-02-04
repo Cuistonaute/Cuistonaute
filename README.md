@@ -28,7 +28,7 @@
 ## Install
 
 ```sh
-npx create-react-app nom-de-l-app --template typescript
+npx create-react-app cuistonaute --template typescript
 npm install sass
 ```
 
