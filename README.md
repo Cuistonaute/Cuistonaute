@@ -1,4 +1,5 @@
-<h1 text="align-center">Welcome to Cuistonaute 👋</h1>
+# <center> Welcome to Cuistonaute </center> ![logo-couleur](https://github.com/Cuistonaute/Cuistonaute/blob/develop/Frontend/public/images/logo-couleur.png)
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="Documentation" target="_blank">
@@ -27,7 +28,7 @@
 ## Install
 
 ```sh
-npx create-react-app nom-de-l-app --template typescript
+npx create-react-app cuistonaute --template typescript
 npm install sass
 ```
 
