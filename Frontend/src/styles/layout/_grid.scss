@@ -1,0 +1,49 @@
+.logo{
+    grid-area: logo;
+}
+.recette{
+    grid-area: recette;
+    justify-self: center;
+    align-self: center;
+}
+.ingredient{
+    grid-area: ingredient;
+    justify-self: center;
+    align-self: center;
+}
+.theme{
+    grid-area: theme;
+    justify-self: center;
+    align-self: center;
+}
+.astuce{
+    grid-area: astuce;
+    justify-self: center;
+    align-self: center;
+}
+.proposer{
+    grid-area: proposer;
+    justify-self: center;
+    align-self: center;
+}
+.favori{
+    grid-area: favori;
+    justify-self: center;
+    align-self: center;
+}
+.favori-icone{
+    grid-area: favori-icone;
+    justify-self: center;
+    align-self: end;
+}
+.favori-text{
+    margin: 0;
+    grid-area: favori-text;
+    justify-self: center;
+    align-self: start;
+}
+.connexion{
+    grid-area: connexion;
+    justify-self: center;
+    align-self: center;
+}

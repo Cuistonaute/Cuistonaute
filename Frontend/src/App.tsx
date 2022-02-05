@@ -14,6 +14,7 @@ import Favoris from './container/Favoris';
 import CGU from './container/CGU';
 import PolitiqueConfidentialite from './container/PolitiqueConfidentialite';
 import Footer from './components/Footer';
+import Contact from './container/Contact';
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
         <Route path='/Astuces' element={<Astuces />} />
         <Route path='/Proposer-sa-recette' element={<ProposerSaRecette />} />
         <Route path='/Favoris' element={<Favoris />} />
+        <Route path='/Contact' element={<Contact />} />
         <Route path='/CGU' element={<CGU />} />
         <Route path='/PolitiqueConfidentialite' element={<PolitiqueConfidentialite />} />
       </Routes> 

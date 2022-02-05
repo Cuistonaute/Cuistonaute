@@ -6,10 +6,10 @@ type SearchBarProps = {
 }
 const SearchBar = (props: SearchBarProps) => {
     return(
-        <>
-            <input type="text" value={props.value} onChange={props.handleChange} />
-            <button>Rechercher</button>
-        </>
+        <form className="search">
+            <input className="search-input" type="text" value={props.value} onChange={props.handleChange} placeholder="Chercher votre recette ou ingrédients..."/>
+            <button className="search-button">Rechercher</button>
+        </form>
     )
 }
 

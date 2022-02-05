@@ -5,7 +5,7 @@ type LogoProps = {
 
 const Logo = (props: LogoProps) => {
     return(
-        <a href="/">
+        <a className="logo" href="/">
             <img src={props.src} alt={props.alt} />
         </a>
     )

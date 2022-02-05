@@ -8,20 +8,21 @@ const NavBar = (props: NavBarProps) =>{
     return(
         <nav className="nav">
             <Logo src="./logo-couleur.png" alt="logo-couleur"/>
-            <a href="/Recettes">Recettes</a>
-            <a href="/Ingredients">Ingrédients</a>
-            <a href="/Themes">Thèmes</a>
-            <a href="/Astuces">Astuces</a>
-            <a href="/Proposer-sa-recette">Proposer sa recette</a>
-            <a href="/Favoris">
-                <i className="fas fa-heart">Favoris</i>                
+            <a className="recette" href="/Recettes">Recettes</a>
+            <a className="ingredient" href="/Ingredients">Ingrédients</a>
+            <a className="theme" href="/Themes">Thèmes</a>
+            <a className="astuce" href="/Astuces">Astuces</a>
+            <a className="proposer" href="/Proposer-sa-recette">Proposer sa recette</a>
+            <a className="favoris" href="/Favoris">
+                <i className="favori-icone fas fa-2x fa-heart"></i>
+                <p className="favori-text">Favoris</p>                
             </a>
             {props.isLoggedIn?
                 <>
                     <img src="./logo192.png" alt="test avatar" />
                     <p>Pseudo</p>
                 </>:
-                <a href="/Connexion">Connexion</a>
+                <a className="connexion" href="/Connexion">Connexion</a>
             }
         </nav>
     )

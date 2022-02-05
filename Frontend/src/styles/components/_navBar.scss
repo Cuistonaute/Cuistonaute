@@ -1,0 +1,21 @@
+nav{
+    height: 135px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: 
+    "logo recette ingredient theme astuce proposer favoris connexion";
+    box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.8);
+    a{
+        text-decoration: none;
+        color: $colour-black;
+        font-weight: bold;
+    }
+}
+.favoris{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "favori-icone"
+    "favori-text"
+    ;
+}
