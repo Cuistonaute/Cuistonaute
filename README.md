@@ -1,4 +1,4 @@
-# <center> Welcome to Cuistonaute </center> ![logo-couleur](https://github.com/Cuistonaute/Cuistonaute/blob/develop/Frontend/public/images/logo-couleur.png)
+# <center> Welcome to Cuistonaute </center> ![logo-couleur](https://github.com/Cuistonaute/Cuistonaute/blob/develop/Frontend/assets/images/logo-couleur.png)
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
