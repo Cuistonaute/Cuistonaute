@@ -21,15 +21,20 @@ const Footer = () => {
                 </p>
             </section>
             <section className='apps'>
-                <article className="card-footer">
-                    <a className='appDesk' href='#'>
-                        <img className="imgApp1" src='./logo192.png' alt='Appli desktop'/>             
-                        <p>Appli Desktop</p>
+                <article className="card-footer-desktop">
+                    <a className='app-desk' href='#'>
+                        <i className="fas fa-2x fa-desktop"></i>             
+                        <p className='appdesk-text'>Appli Desktop</p>
+                    </a>
+                </article>
+                <article className="card-footer-mobile">
+                    <a className='app-mobile' href='#'>
+                        <i className="fas fa-2x fa-mobile-alt"></i>             
+                        <p className='appmobile-text'>Appli Desktop</p>
                     </a>
                 </article>
             </section>
 
-               {/* <a><img src="./logo512.png" alt="Appli Mobile"/></a> */}
         </footer>
     );
 };

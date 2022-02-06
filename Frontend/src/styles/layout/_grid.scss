@@ -129,9 +129,30 @@
 .apps {
     grid-area: apps;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "card-footer-desktop card-footer-mobile";
     justify-self: center;
     align-self: start;
 }
 .article-form {
     grid-area: article-form;
+}
+.app-desk {
+    grid-area: app-desk;
+    text-align: center;
+}
+.app-mobile {
+    grid-area: app-mobile;
+    text-align: center;
+}
+
+.fa-desktop {
+    grid-area: fa-desktop;
+    justify-self: center;
+}
+
+.fa-mobile-alt {
+    grid-area: fa-mobile-alt;
+    justify-self: center;
 }
