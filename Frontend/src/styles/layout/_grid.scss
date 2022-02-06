@@ -43,8 +43,8 @@
     justify-self: center;
     align-self: start;
 }
-.connexion{
-    grid-area: connexion;
+.navbar-connexion{
+    // grid-area: navbar-connexion;
     justify-self: center;
     align-self: center;
 }
@@ -60,6 +60,9 @@
     justify-self: center;
     align-self: start;
 
+}
+.connexion-page {
+    grid-area: connexion-page;
 }
 .social-icons {
     grid-area: social-icons;
@@ -128,4 +131,7 @@
     display: grid;
     justify-self: center;
     align-self: start;
+}
+.article-form {
+    grid-area: article-form;
 }

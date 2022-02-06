@@ -1,10 +1,11 @@
 import React from 'react';
+import Socials from '../components/Socials';
 
 const Inscription = () => {
     return (
-        <>
+    <>
         <section>
-             <article className="connexion-form">
+            <article className="inscription-form">
                 <form action="">
                     <p>Inscrivez-vous en complétant ces champs</p>
                     <input type="text" placeholder="Prénom et Nom"></input>
@@ -13,8 +14,9 @@ const Inscription = () => {
                     <input type="password" placeholder="Confirmation mot de passe"></input> 
                 </form>            
             </article>
-            <article className="socials-connexion">
-                <p>Ou vous inscrire avec :</p>                   
+            <article className="socials-inscription">
+                <p>Ou vous inscrire avec :</p> 
+                <Socials />                  
             </article> 
         {/* <a href="/PolitiqueConfidentialite">RGPD</a> */}
         {/* <input type='checkbox' name="cgu">Conditions Générales</input>  */}
