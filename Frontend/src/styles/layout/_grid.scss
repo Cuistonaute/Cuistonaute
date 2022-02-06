@@ -1,0 +1,158 @@
+.logo{
+    grid-area: logo;
+}
+.recette{
+    grid-area: recette;
+    justify-self: center;
+    align-self: center;
+}
+.ingredient{
+    grid-area: ingredient;
+    justify-self: center;
+    align-self: center;
+}
+.theme{
+    grid-area: theme;
+    justify-self: center;
+    align-self: center;
+}
+.astuce{
+    grid-area: astuce;
+    justify-self: center;
+    align-self: center;
+}
+.proposer{
+    grid-area: proposer;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.favori{
+    grid-area: favori;
+    justify-self: center;
+    align-self: center;
+}
+.favori-icone{
+    grid-area: favori-icone;
+    justify-self: center;
+    align-self: end;
+}
+.favori-text{
+    margin: 0;
+    grid-area: favori-text;
+    justify-self: center;
+    align-self: start;
+}
+.navbar-connexion{
+    // grid-area: navbar-connexion;
+    justify-self: center;
+    align-self: center;
+}
+.connexion-icone{
+    grid-area: connexion-icone;
+    justify-self: center;
+    align-self: end;
+
+}
+.connexion-texte{
+    margin: 0;
+    grid-area: connexion-text;
+    justify-self: center;
+    align-self: start;
+
+}
+.connexion-page {
+    grid-area: connexion-page;
+}
+.social-icons {
+    grid-area: social-icons;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "title-icons title-icons title-icons"
+    "fb insta twitter"
+    ;
+}
+.title-icons {
+    grid-area: title-icons;
+    justify-self: center;
+    align-self: start;
+}
+.fb {
+    grid-area: fb;
+    justify-self: center;
+    align-self: start;
+}
+.insta {
+    grid-area: insta;
+    justify-self: center;
+    align-self: start;
+}
+.twitter {
+    grid-area: twitter;
+    justify-self: center;
+    align-self: start;
+}
+
+.links {
+    grid-area: links;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "contact"
+    "rgpd"
+    "cgu"
+    ;
+    justify-self: center;
+    align-self: start;
+    & a {
+        text-decoration: none;
+        color : $colour-black;
+    }
+}
+.contact {
+    grid-area: contact;
+    justify-self: center;
+    align-self: start;
+}
+.rgpd {
+    grid-area: rgpd;
+    justify-self: center;
+    align-self: start;
+}
+.cgu {
+    grid-area: cgu;
+    justify-self: center;
+    align-self: start;
+}
+.apps {
+    grid-area: apps;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "card-footer-desktop card-footer-mobile";
+    justify-self: center;
+    align-self: start;
+}
+.article-form {
+    grid-area: article-form;
+}
+.app-desk {
+    grid-area: app-desk;
+    text-align: center;
+}
+.app-mobile {
+    grid-area: app-mobile;
+    text-align: center;
+}
+
+.fa-desktop {
+    grid-area: fa-desktop;
+    justify-self: center;
+}
+
+.fa-mobile-alt {
+    grid-area: fa-mobile-alt;
+    justify-self: center;
+}
