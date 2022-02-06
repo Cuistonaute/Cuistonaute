@@ -1,3 +1,4 @@
+import Socials from "../components/Socials";
 
 const Connexion = () => {
     return (
@@ -12,6 +13,7 @@ const Connexion = () => {
                 </article>
                 <article>
                     <p>Connectez-vous également via les réseaux sociaux :</p>
+                    <Socials />
                 </article>
                 <article>
                     <p>Ou alors inscrivez-vous <a href='/Inscription'> ici</a> !</p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Socials from '../components/Socials';
 
 const Inscription = () => {
     return (
@@ -14,7 +15,8 @@ const Inscription = () => {
                 </form>            
             </article>
             <article className="socials-connexion">
-                <p>Ou vous inscrire avec :</p>                   
+                <p>Ou vous inscrire avec :</p> 
+                <Socials />                  
             </article> 
         {/* <a href="/PolitiqueConfidentialite">RGPD</a> */}
         {/* <input type='checkbox' name="cgu">Conditions Générales</input>  */}
