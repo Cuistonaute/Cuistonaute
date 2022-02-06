@@ -15,6 +15,7 @@ import CGU from './container/CGU';
 import PolitiqueConfidentialite from './container/PolitiqueConfidentialite';
 import Footer from './components/Footer';
 import Contact from './container/Contact';
+import Inscription from './container/Inscription';
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/Recettes' element={<Recettes />} />
         <Route path='/Connexion' element={<Connexion />} />
+        <Route path='/Inscription' element={<Inscription />} />
         <Route path='/Ingredients' element={<Ingredients />} />
         <Route path='/Themes' element={<Themes />} />
         <Route path='/Astuces' element={<Astuces />} />

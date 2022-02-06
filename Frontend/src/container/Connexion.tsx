@@ -1,9 +1,25 @@
-const Connexion = () => {
 
+const Connexion = () => {
     return (
         <>
-            <h1>Hello Connexion!</h1>
+            <section className="connect-form">
+                <article>
+                    <form>
+                        <input type='text' placeholder="E-mail"></input>
+                        <input type='password' placeholder="Mot de passe"></input>
+                        <button type="submit">Se connecter</button>
+                    </form>
+                </article>
+                <article>
+                    <p>Connectez-vous également via les réseaux sociaux :</p>
+                </article>
+                <article>
+                    <p>Ou alors inscrivez-vous <a href='/Inscription'> ici</a> !</p>
+                </article>
+            </section>
+            
         </>
+        
     );
 }
 
