@@ -1,14 +1,15 @@
-import React from "react"
+import React, {useState} from "react"
+import Button from "./Button"
 
-type SearchBarProps = {
-    value: string
-    handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void
-}
-const SearchBar = (props: SearchBarProps) => {
+const SearchBar = () => {
+    const [searchTerme, setSearchTerme] = useState('')
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setSearchTerme(event.currentTarget.value)
+    }
     return(
         <form className="search">
-            <input className="search-input" type="text" value={props.value} onChange={props.handleChange} placeholder="Chercher votre recette ou ingrédients..."/>
-            <button className="search-button">Rechercher</button>
+            <input className="search-input" type="text" value={searchTerme} onChange={handleChange} placeholder="Chercher votre recette ou ingrédients..."/>
+            <Button handleClick={(event) => {console.log('Button Clicked!', event)}} name='Rechercher' />
         </form>
     )
 }

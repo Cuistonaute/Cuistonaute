@@ -48,3 +48,16 @@
     justify-self: center;
     align-self: center;
 }
+.connexion-icone{
+    grid-area: connexion-icone;
+    justify-self: center;
+    align-self: end;
+
+}
+.connexion-texte{
+    margin: 0;
+    grid-area: connexion-text;
+    justify-self: center;
+    align-self: start;
+
+}
