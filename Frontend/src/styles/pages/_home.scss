@@ -2,7 +2,7 @@ h1{
     text-align: center;
     font-size: 48px;
 }
-section{
+.card1, .card2, .card3{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 15px;
