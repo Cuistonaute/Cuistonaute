@@ -46,7 +46,7 @@ const NavBar = (props: NavBarProps) =>{
                     <img src="./logo192.png" alt="test avatar" />
                     <p>Pseudo</p>
                 </>:
-                <NavLink className="connexion" to="/Connexion">
+                <NavLink className="navbar-connexion" to="/Connexion">
                     <i className="connexion-icone fas fa-2x fa-user"></i>
                     <p className="connexion-texte">Connexion</p>
                 </NavLink>
