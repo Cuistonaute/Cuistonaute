@@ -34,7 +34,7 @@ const App = () => {
         <Route path='/Proposer' element={<ProposerSaRecette />} />
         <Route path='/Favoris' element={<Favoris />} />
         <Route path='/Contact' element={<Contact />} />
-        <Route path='/mentions' element={<CGU />} />
+        <Route path='/Mentions' element={<CGU />} />
         <Route path='/Politique' element={<PolitiqueConfidentialite />} />
       </Routes> 
       <Footer />
