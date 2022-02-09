@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cuistonaute/static/css/main.ac5e3600.css",
+    "main.js": "/Cuistonaute/static/js/main.b933260e.js",
+    "static/js/787.0de1645b.chunk.js": "/Cuistonaute/static/js/787.0de1645b.chunk.js",
+    "index.html": "/Cuistonaute/index.html",
+    "main.ac5e3600.css.map": "/Cuistonaute/static/css/main.ac5e3600.css.map",
+    "main.b933260e.js.map": "/Cuistonaute/static/js/main.b933260e.js.map",
+    "787.0de1645b.chunk.js.map": "/Cuistonaute/static/js/787.0de1645b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac5e3600.css",
+    "static/js/main.b933260e.js"
+  ]
+}
