@@ -31,11 +31,11 @@ const App = () => {
         <Route path='/Ingredients' element={<Ingredients />} />
         <Route path='/Themes' element={<Themes />} />
         <Route path='/Astuces' element={<Astuces />} />
-        <Route path='/Proposer_sa_recette' element={<ProposerSaRecette />} />
+        <Route path='/Proposer' element={<ProposerSaRecette />} />
         <Route path='/Favoris' element={<Favoris />} />
         <Route path='/Contact' element={<Contact />} />
-        <Route path='/mentions_legales' element={<CGU />} />
-        <Route path='/Politique_Confidentialite' element={<PolitiqueConfidentialite />} />
+        <Route path='/mentions' element={<CGU />} />
+        <Route path='/Politique' element={<PolitiqueConfidentialite />} />
       </Routes> 
       <Footer />
     </BrowserRouter>
